@@ -1,8 +1,16 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
 }
 
-a {
-  color: #00B7FF;
+.navBar {
+  position: fixed !important; /* Fixa a barra no topo da página */
+  top: 0  !important; /* Alinha a barra no topo */
+  z-index: 1000 !important; /* Z-index para garantir que a barra esteja acima de outros elementos */
+  width: 100% !important;
+  opacity: 0.75;
+}
+
+.logo {
+  opacity: 1 !important;
+  z-index: 10000 !important;
 }
